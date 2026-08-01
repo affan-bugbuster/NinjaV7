@@ -1,0 +1,987 @@
+2026-08-01 00:00:54 DEBUG TestNG:82 - suiteXmlPath: "C:\Workspaces\QA bootcamp\NinjaV6\testng.xml"
+2026-08-01 00:00:54 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:00:54 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:00:54 DEBUG BaseClass:51 - Browser Parameter Received: firefox
+2026-08-01 00:00:54 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:00:54 INFO  BaseClass:123 - Launching Firefox browser
+2026-08-01 00:00:54 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:00:54 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:00:54 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:00:54 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:00:54 DEBUG BaseClass:51 - Browser Parameter Received: edge
+2026-08-01 00:00:54 DEBUG BaseClass:51 - Browser Parameter Received: chrome
+2026-08-01 00:00:54 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:00:54 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:00:54 INFO  BaseClass:118 - Launching Edge browser
+2026-08-01 00:00:54 INFO  BaseClass:113 - Launching Chrome browser
+2026-08-01 00:00:55 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:00:55 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:00:55 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:00:55 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:00:55 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:00:55 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:00:56 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:00:57 INFO  BaseClass:15 - ===== TC01_LaunchApplication STARTED =====
+2026-08-01 00:00:57 DEBUG BaseClass:16 - Initializing HomePage object using ThreadLocal driver
+2026-08-01 00:00:57 DEBUG BaseClass:21 - HomePage object created: HomePage
+2026-08-01 00:00:57 DEBUG BaseClass:23 - Fetching page title...
+2026-08-01 00:00:57 INFO  BaseClass:25 - Page title captured: Your store of fun
+2026-08-01 00:00:57 DEBUG BaseClass:30 - Validating page title matches expected value...
+2026-08-01 00:00:57 INFO  BaseClass:32 - ✅ Assertion PASSED: Title matched expected value
+2026-08-01 00:00:57 INFO  BaseClass:58 - ===== TC01_LaunchApplication FINISHED =====
+2026-08-01 00:00:57 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:00:57 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:00:57 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:00:57 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:00:57 DEBUG BaseClass:51 - Browser Parameter Received: chrome
+2026-08-01 00:00:57 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:00:57 INFO  BaseClass:113 - Launching Chrome browser
+2026-08-01 00:00:58 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:00:58 INFO  BaseClass:15 - ===== TC01_LaunchApplication STARTED =====
+2026-08-01 00:00:58 DEBUG BaseClass:16 - Initializing HomePage object using ThreadLocal driver
+2026-08-01 00:00:58 DEBUG BaseClass:21 - HomePage object created: HomePage
+2026-08-01 00:00:58 DEBUG BaseClass:23 - Fetching page title...
+2026-08-01 00:00:58 INFO  BaseClass:25 - Page title captured: Your store of fun
+2026-08-01 00:00:58 DEBUG BaseClass:30 - Validating page title matches expected value...
+2026-08-01 00:00:58 INFO  BaseClass:32 - ✅ Assertion PASSED: Title matched expected value
+2026-08-01 00:00:58 INFO  BaseClass:58 - ===== TC01_LaunchApplication FINISHED =====
+2026-08-01 00:00:58 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:00:58 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:00:58 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:00:58 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:00:58 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:00:58 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:00:58 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:00:58 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:00:58 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:00:58 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:00:58 DEBUG BaseClass:51 - Browser Parameter Received: edge
+2026-08-01 00:00:58 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:00:58 INFO  BaseClass:118 - Launching Edge browser
+2026-08-01 00:00:58 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:00:58 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:00:58 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:00:59 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:00:59 INFO  BaseClass:16 - ===== TC03_AddToCart STARTED =====
+2026-08-01 00:00:59 DEBUG BaseClass:20 - Initializing CategoryPage
+2026-08-01 00:00:59 INFO  BaseClass:23 - Clicking Laptops & Notebooks category
+2026-08-01 00:00:59 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:00:59 INFO  BaseClass:15 - ===== TC01_LaunchApplication STARTED =====
+2026-08-01 00:00:59 DEBUG BaseClass:16 - Initializing HomePage object using ThreadLocal driver
+2026-08-01 00:00:59 DEBUG BaseClass:21 - HomePage object created: HomePage
+2026-08-01 00:00:59 DEBUG BaseClass:23 - Fetching page title...
+2026-08-01 00:00:59 INFO  BaseClass:25 - Page title captured: Your store of fun
+2026-08-01 00:00:59 DEBUG BaseClass:30 - Validating page title matches expected value...
+2026-08-01 00:00:59 INFO  BaseClass:32 - ✅ Assertion PASSED: Title matched expected value
+2026-08-01 00:00:59 INFO  BaseClass:58 - ===== TC01_LaunchApplication FINISHED =====
+2026-08-01 00:00:59 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:00:59 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:00 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:00 INFO  BaseClass:16 - ===== TC03_AddToCart STARTED =====
+2026-08-01 00:01:00 DEBUG BaseClass:20 - Initializing CategoryPage
+2026-08-01 00:01:00 INFO  BaseClass:23 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:00 INFO  BaseClass:26 - Clicking Show All
+2026-08-01 00:01:00 INFO  BaseClass:26 - Clicking Show All
+2026-08-01 00:01:00 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:00 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:00 DEBUG BaseClass:51 - Browser Parameter Received: firefox
+2026-08-01 00:01:00 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:00 INFO  BaseClass:123 - Launching Firefox browser
+2026-08-01 00:01:00 DEBUG BaseClass:30 - Waiting briefly for products to load (Thread.sleep)
+2026-08-01 00:01:01 DEBUG BaseClass:30 - Waiting briefly for products to load (Thread.sleep)
+2026-08-01 00:01:01 INFO  BaseClass:33 - Selecting HP product
+2026-08-01 00:01:01 INFO  BaseClass:33 - Selecting HP product
+2026-08-01 00:01:02 DEBUG BaseClass:36 - Initializing ProductPage
+2026-08-01 00:01:02 INFO  BaseClass:39 - Setting delivery date
+2026-08-01 00:01:02 DEBUG BaseClass:36 - Initializing ProductPage
+2026-08-01 00:01:02 INFO  BaseClass:39 - Setting delivery date
+2026-08-01 00:01:03 INFO  BaseClass:42 - Clicking Add to Cart
+2026-08-01 00:01:03 INFO  BaseClass:42 - Clicking Add to Cart
+2026-08-01 00:01:03 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:03 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:03 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:03 INFO  BaseClass:46 - Success message displayed: true
+2026-08-01 00:01:03 DEBUG BaseClass:51 - Asserting Add to Cart success message is displayed
+2026-08-01 00:01:03 INFO  BaseClass:53 - ✅ Assertion PASSED: Product added to cart successfully
+2026-08-01 00:01:03 INFO  BaseClass:46 - Success message displayed: true
+2026-08-01 00:01:03 INFO  BaseClass:86 - ===== TC03_AddToCart FINISHED =====
+2026-08-01 00:01:03 DEBUG BaseClass:51 - Asserting Add to Cart success message is displayed
+2026-08-01 00:01:03 INFO  BaseClass:53 - ✅ Assertion PASSED: Product added to cart successfully
+2026-08-01 00:01:03 INFO  BaseClass:86 - ===== TC03_AddToCart FINISHED =====
+2026-08-01 00:01:03 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:03 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:03 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:03 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:04 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:04 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:04 DEBUG BaseClass:51 - Browser Parameter Received: chrome
+2026-08-01 00:01:04 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:04 INFO  BaseClass:113 - Launching Chrome browser
+2026-08-01 00:01:04 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:04 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:04 DEBUG BaseClass:51 - Browser Parameter Received: edge
+2026-08-01 00:01:04 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:04 INFO  BaseClass:118 - Launching Edge browser
+2026-08-01 00:01:05 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:05 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:05 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:05 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:05 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:05 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:05 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:05 INFO  BaseClass:16 - ===== TC03_AddToCart STARTED =====
+2026-08-01 00:01:05 DEBUG BaseClass:20 - Initializing CategoryPage
+2026-08-01 00:01:05 INFO  BaseClass:23 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:06 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:06 INFO  BaseClass:18 - ===== TC05_AddToWishList STARTED =====
+2026-08-01 00:01:06 DEBUG BaseClass:23 - Initializing HomePage
+2026-08-01 00:01:06 INFO  BaseClass:26 - Clicking My Account
+2026-08-01 00:01:06 INFO  BaseClass:26 - Clicking Show All
+2026-08-01 00:01:06 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:06 INFO  BaseClass:18 - ===== TC05_AddToWishList STARTED =====
+2026-08-01 00:01:06 DEBUG BaseClass:23 - Initializing HomePage
+2026-08-01 00:01:06 INFO  BaseClass:26 - Clicking My Account
+2026-08-01 00:01:07 INFO  BaseClass:31 - Navigating to Login page
+2026-08-01 00:01:07 INFO  BaseClass:31 - Navigating to Login page
+2026-08-01 00:01:08 DEBUG BaseClass:36 - Initializing LoginPage
+2026-08-01 00:01:08 INFO  BaseClass:39 - Entering email
+2026-08-01 00:01:08 INFO  BaseClass:42 - Entering password
+2026-08-01 00:01:08 INFO  BaseClass:45 - Submitting login
+2026-08-01 00:01:08 DEBUG BaseClass:49 - Initializing CategoryPage
+2026-08-01 00:01:08 DEBUG BaseClass:36 - Initializing LoginPage
+2026-08-01 00:01:08 INFO  BaseClass:39 - Entering email
+2026-08-01 00:01:08 INFO  BaseClass:42 - Entering password
+2026-08-01 00:01:08 DEBUG BaseClass:30 - Waiting briefly for products to load (Thread.sleep)
+2026-08-01 00:01:08 INFO  BaseClass:45 - Submitting login
+2026-08-01 00:01:08 INFO  BaseClass:54 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:08 DEBUG BaseClass:49 - Initializing CategoryPage
+2026-08-01 00:01:09 INFO  BaseClass:33 - Selecting HP product
+2026-08-01 00:01:09 INFO  BaseClass:54 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:09 INFO  BaseClass:57 - Clicking Show All products
+2026-08-01 00:01:10 DEBUG BaseClass:60 - Waiting briefly for products to load
+2026-08-01 00:01:10 INFO  BaseClass:57 - Clicking Show All products
+2026-08-01 00:01:10 DEBUG BaseClass:36 - Initializing ProductPage
+2026-08-01 00:01:10 INFO  BaseClass:39 - Setting delivery date
+2026-08-01 00:01:10 INFO  BaseClass:42 - Clicking Add to Cart
+2026-08-01 00:01:10 INFO  BaseClass:63 - Selecting HP product
+2026-08-01 00:01:10 DEBUG BaseClass:60 - Waiting briefly for products to load
+2026-08-01 00:01:11 INFO  BaseClass:46 - Success message displayed: true
+2026-08-01 00:01:11 DEBUG BaseClass:51 - Asserting Add to Cart success message is displayed
+2026-08-01 00:01:11 INFO  BaseClass:53 - ✅ Assertion PASSED: Product added to cart successfully
+2026-08-01 00:01:11 INFO  BaseClass:86 - ===== TC03_AddToCart FINISHED =====
+2026-08-01 00:01:11 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:11 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:11 INFO  BaseClass:63 - Selecting HP product
+2026-08-01 00:01:11 DEBUG BaseClass:67 - Initializing ProductPage
+2026-08-01 00:01:11 INFO  BaseClass:70 - Clicking Add to Wishlist
+2026-08-01 00:01:12 INFO  BaseClass:74 - Wishlist success message displayed: true
+2026-08-01 00:01:12 DEBUG BaseClass:79 - Asserting wishlist success message
+2026-08-01 00:01:12 INFO  BaseClass:81 - ✅ Assertion PASSED: Product added to wishlist
+2026-08-01 00:01:12 INFO  BaseClass:115 - ===== TC05_AddToWishList FINISHED =====
+2026-08-01 00:01:12 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:12 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:12 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:12 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:12 DEBUG BaseClass:51 - Browser Parameter Received: firefox
+2026-08-01 00:01:12 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:12 INFO  BaseClass:123 - Launching Firefox browser
+2026-08-01 00:01:12 DEBUG BaseClass:67 - Initializing ProductPage
+2026-08-01 00:01:12 INFO  BaseClass:70 - Clicking Add to Wishlist
+2026-08-01 00:01:12 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:12 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:12 DEBUG BaseClass:51 - Browser Parameter Received: chrome
+2026-08-01 00:01:12 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:12 INFO  BaseClass:113 - Launching Chrome browser
+2026-08-01 00:01:12 INFO  BaseClass:74 - Wishlist success message displayed: true
+2026-08-01 00:01:12 DEBUG BaseClass:79 - Asserting wishlist success message
+2026-08-01 00:01:12 INFO  BaseClass:81 - ✅ Assertion PASSED: Product added to wishlist
+2026-08-01 00:01:12 INFO  BaseClass:115 - ===== TC05_AddToWishList FINISHED =====
+2026-08-01 00:01:12 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:12 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:12 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:12 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:12 DEBUG BaseClass:51 - Browser Parameter Received: edge
+2026-08-01 00:01:12 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:12 INFO  BaseClass:118 - Launching Edge browser
+2026-08-01 00:01:13 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:13 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:13 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:13 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:13 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:13 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:14 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:14 INFO  BaseClass:17 - ===== TC06_AddAffiliate STARTED =====
+2026-08-01 00:01:14 DEBUG BaseClass:22 - Initializing HomePage
+2026-08-01 00:01:14 INFO  BaseClass:25 - Clicking My Account
+2026-08-01 00:01:14 INFO  BaseClass:28 - Navigating to Login page
+2026-08-01 00:01:14 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:14 INFO  BaseClass:17 - ===== TC06_AddAffiliate STARTED =====
+2026-08-01 00:01:14 DEBUG BaseClass:22 - Initializing HomePage
+2026-08-01 00:01:14 INFO  BaseClass:25 - Clicking My Account
+2026-08-01 00:01:14 INFO  BaseClass:28 - Navigating to Login page
+2026-08-01 00:01:15 DEBUG BaseClass:31 - Initializing LoginPage
+2026-08-01 00:01:15 INFO  BaseClass:34 - Entering email
+2026-08-01 00:01:15 INFO  BaseClass:37 - Entering password
+2026-08-01 00:01:15 INFO  BaseClass:40 - Submitting login
+2026-08-01 00:01:15 DEBUG BaseClass:44 - Initializing AffiliatePage
+2026-08-01 00:01:15 INFO  BaseClass:47 - Navigating to Affiliate form
+2026-08-01 00:01:15 DEBUG BaseClass:31 - Initializing LoginPage
+2026-08-01 00:01:15 INFO  BaseClass:34 - Entering email
+2026-08-01 00:01:15 INFO  BaseClass:37 - Entering password
+2026-08-01 00:01:15 INFO  BaseClass:40 - Submitting login
+2026-08-01 00:01:15 DEBUG BaseClass:44 - Initializing AffiliatePage
+2026-08-01 00:01:15 INFO  BaseClass:47 - Navigating to Affiliate form
+2026-08-01 00:01:15 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:15 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:15 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:16 INFO  BaseClass:50 - Filling Affiliate details
+2026-08-01 00:01:16 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:16 INFO  BaseClass:18 - ===== TC05_AddToWishList STARTED =====
+2026-08-01 00:01:16 DEBUG BaseClass:23 - Initializing HomePage
+2026-08-01 00:01:16 INFO  BaseClass:26 - Clicking My Account
+2026-08-01 00:01:16 INFO  BaseClass:50 - Filling Affiliate details
+2026-08-01 00:01:17 INFO  BaseClass:31 - Navigating to Login page
+2026-08-01 00:01:18 INFO  BaseClass:59 - Affiliate added status: true
+2026-08-01 00:01:18 DEBUG BaseClass:64 - Asserting affiliate addition
+2026-08-01 00:01:18 INFO  BaseClass:66 - ✅ Assertion PASSED: Affiliate added successfully
+2026-08-01 00:01:18 INFO  BaseClass:90 - ===== TC06_AddAffiliate FINISHED =====
+2026-08-01 00:01:18 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:18 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:18 INFO  BaseClass:59 - Affiliate added status: true
+2026-08-01 00:01:18 DEBUG BaseClass:64 - Asserting affiliate addition
+2026-08-01 00:01:18 INFO  BaseClass:66 - ✅ Assertion PASSED: Affiliate added successfully
+2026-08-01 00:01:18 INFO  BaseClass:90 - ===== TC06_AddAffiliate FINISHED =====
+2026-08-01 00:01:18 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:18 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:18 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:18 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:18 DEBUG BaseClass:51 - Browser Parameter Received: edge
+2026-08-01 00:01:18 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:18 INFO  BaseClass:118 - Launching Edge browser
+2026-08-01 00:01:18 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:18 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:18 DEBUG BaseClass:51 - Browser Parameter Received: chrome
+2026-08-01 00:01:18 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:18 INFO  BaseClass:113 - Launching Chrome browser
+2026-08-01 00:01:19 DEBUG BaseClass:36 - Initializing LoginPage
+2026-08-01 00:01:19 INFO  BaseClass:39 - Entering email
+2026-08-01 00:01:19 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:19 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:19 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:19 INFO  BaseClass:42 - Entering password
+2026-08-01 00:01:19 INFO  BaseClass:45 - Submitting login
+2026-08-01 00:01:19 DEBUG BaseClass:49 - Initializing CategoryPage
+2026-08-01 00:01:19 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:19 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:19 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:20 INFO  BaseClass:54 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:20 INFO  BaseClass:57 - Clicking Show All products
+2026-08-01 00:01:20 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:21 DEBUG BaseClass:60 - Waiting briefly for products to load
+2026-08-01 00:01:21 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:21 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:21 INFO  BaseClass:63 - Selecting HP product
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:21 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:21 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:21 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:22 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:22 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:22 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:22 DEBUG BaseClass:24 - Test data received -> Email: smitasharma.qa@gmail.com, Password length: 8
+2026-08-01 00:01:22 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:22 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:22 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:23 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:23 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:23 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:23 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:23 DEBUG BaseClass:67 - Initializing ProductPage
+2026-08-01 00:01:23 INFO  BaseClass:70 - Clicking Add to Wishlist
+2026-08-01 00:01:23 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:23 INFO  BaseClass:74 - Wishlist success message displayed: true
+2026-08-01 00:01:23 DEBUG BaseClass:79 - Asserting wishlist success message
+2026-08-01 00:01:23 INFO  BaseClass:81 - ✅ Assertion PASSED: Product added to wishlist
+2026-08-01 00:01:23 INFO  BaseClass:115 - ===== TC05_AddToWishList FINISHED =====
+2026-08-01 00:01:23 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:23 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:24 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:24 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:24 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:24 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:24 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:24 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:24 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:24 DEBUG BaseClass:24 - Test data received -> Email: nona@yahoo.com, Password length: 8
+2026-08-01 00:01:24 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:24 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:24 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:24 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:24 DEBUG BaseClass:51 - Browser Parameter Received: firefox
+2026-08-01 00:01:24 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:24 INFO  BaseClass:123 - Launching Firefox browser
+2026-08-01 00:01:24 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:24 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:24 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:24 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:24 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:24 DEBUG BaseClass:24 - Test data received -> Email: smitasharma.qa@gmail.com, Password length: 8
+2026-08-01 00:01:24 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:24 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:24 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:25 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:25 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:25 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:25 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:25 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:25 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:25 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:25 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:25 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:25 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:25 DEBUG BaseClass:24 - Test data received -> Email: sid@cloudberry.services, Password length: 7
+2026-08-01 00:01:25 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:25 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:25 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:26 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:26 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:26 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:26 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:26 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:26 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:26 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:26 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:26 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:26 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:26 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:26 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:26 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:26 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:26 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:26 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:26 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:27 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:27 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:27 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:27 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:27 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:27 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:27 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:27 DEBUG BaseClass:24 - Test data received -> Email: apushedwoman@gmail.com, Password length: 11
+2026-08-01 00:01:27 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:27 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:27 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:27 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:27 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:27 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:27 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:27 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:27 DEBUG BaseClass:24 - Test data received -> Email: nona@yahoo.com, Password length: 8
+2026-08-01 00:01:27 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:27 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:27 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:27 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:27 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:27 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:28 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:28 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:28 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:28 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:28 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:28 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:28 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:28 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:28 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:28 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:28 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:28 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:28 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:28 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:28 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:28 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:28 DEBUG BaseClass:24 - Test data received -> Email: hichamkhachiai@gmail.com, Password length: 9
+2026-08-01 00:01:28 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:28 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:28 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:29 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:29 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:29 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:29 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:29 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:29 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:29 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:29 DEBUG BaseClass:24 - Test data received -> Email: sid@cloudberry.services, Password length: 7
+2026-08-01 00:01:29 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:29 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:29 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:29 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:29 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:29 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:29 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:29 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:29 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:29 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:29 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:29 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:29 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:30 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:30 INFO  BaseClass:17 - ===== TC06_AddAffiliate STARTED =====
+2026-08-01 00:01:30 DEBUG BaseClass:22 - Initializing HomePage
+2026-08-01 00:01:30 INFO  BaseClass:25 - Clicking My Account
+2026-08-01 00:01:30 INFO  BaseClass:28 - Navigating to Login page
+2026-08-01 00:01:30 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:30 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:30 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:30 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:30 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:30 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:30 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:30 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:30 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:30 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:30 DEBUG BaseClass:51 - Browser Parameter Received: edge
+2026-08-01 00:01:30 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:30 INFO  BaseClass:118 - Launching Edge browser
+2026-08-01 00:01:30 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:30 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:30 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:30 DEBUG BaseClass:24 - Test data received -> Email: apushedwoman@gmail.com, Password length: 11
+2026-08-01 00:01:30 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:30 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:30 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:31 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:31 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:31 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:31 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:31 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:31 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:31 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:31 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:31 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:31 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:31 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:31 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:32 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:32 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:32 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:32 DEBUG BaseClass:24 - Test data received -> Email: hichamkhachiai@gmail.com, Password length: 9
+2026-08-01 00:01:32 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:32 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:32 DEBUG BaseClass:31 - Initializing LoginPage
+2026-08-01 00:01:32 INFO  BaseClass:34 - Entering email
+2026-08-01 00:01:32 INFO  BaseClass:37 - Entering password
+2026-08-01 00:01:32 INFO  BaseClass:40 - Submitting login
+2026-08-01 00:01:32 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:32 DEBUG BaseClass:44 - Initializing AffiliatePage
+2026-08-01 00:01:32 INFO  BaseClass:47 - Navigating to Affiliate form
+2026-08-01 00:01:32 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:32 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:32 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:32 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:32 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:32 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:32 INFO  BaseClass:19 - ===== TC04_CompletePurchase STARTED =====
+2026-08-01 00:01:32 DEBUG BaseClass:24 - Initializing CategoryPage
+2026-08-01 00:01:32 INFO  BaseClass:27 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:32 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:32 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:32 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:32 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:33 INFO  BaseClass:30 - Clicking Show All products
+2026-08-01 00:01:33 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:33 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:33 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:33 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:33 INFO  BaseClass:50 - Filling Affiliate details
+2026-08-01 00:01:33 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:33 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:33 DEBUG BaseClass:51 - Browser Parameter Received: chrome
+2026-08-01 00:01:33 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:33 INFO  BaseClass:113 - Launching Chrome browser
+2026-08-01 00:01:34 DEBUG BaseClass:33 - Waiting briefly for products to load
+2026-08-01 00:01:34 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:34 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:34 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:34 INFO  BaseClass:59 - Affiliate added status: true
+2026-08-01 00:01:34 DEBUG BaseClass:64 - Asserting affiliate addition
+2026-08-01 00:01:34 INFO  BaseClass:66 - ✅ Assertion PASSED: Affiliate added successfully
+2026-08-01 00:01:34 INFO  BaseClass:90 - ===== TC06_AddAffiliate FINISHED =====
+2026-08-01 00:01:34 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:34 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:35 INFO  BaseClass:36 - Selecting HP product
+2026-08-01 00:01:35 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:35 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:35 DEBUG BaseClass:51 - Browser Parameter Received: firefox
+2026-08-01 00:01:35 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:35 INFO  BaseClass:123 - Launching Firefox browser
+2026-08-01 00:01:36 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:36 INFO  BaseClass:19 - ===== TC04_CompletePurchase STARTED =====
+2026-08-01 00:01:36 DEBUG BaseClass:24 - Initializing CategoryPage
+2026-08-01 00:01:36 INFO  BaseClass:27 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:36 DEBUG BaseClass:40 - Initializing ProductPage
+2026-08-01 00:01:36 INFO  BaseClass:43 - Setting delivery date
+2026-08-01 00:01:36 INFO  BaseClass:30 - Clicking Show All products
+2026-08-01 00:01:37 INFO  BaseClass:48 - Adding product to cart
+2026-08-01 00:01:37 DEBUG BaseClass:33 - Waiting briefly for products to load
+2026-08-01 00:01:37 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:37 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:37 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:38 INFO  BaseClass:36 - Selecting HP product
+2026-08-01 00:01:38 INFO  BaseClass:53 - Proceeding to checkout
+2026-08-01 00:01:39 DEBUG BaseClass:40 - Initializing ProductPage
+2026-08-01 00:01:39 INFO  BaseClass:43 - Setting delivery date
+2026-08-01 00:01:39 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG BaseClass:57 - Initializing CheckoutPage
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 INFO  BaseClass:60 - Clicking Login on checkout page
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/_rels/workbook.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+2026-08-01 00:01:39 DEBUG PackageRelationshipCollection:307 - Parsing relationship: /_rels/.rels
+2026-08-01 00:01:39 DEBUG POIXMLFactory:65 - using default POIXMLDocumentPart for http://schemas.openxmlformats.org/officeDocument/2006/relationships/printerSettings
+2026-08-01 00:01:39 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:39 DEBUG BaseClass:24 - Test data received -> Email: smitasharma.qa@gmail.com, Password length: 8
+2026-08-01 00:01:39 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:39 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:40 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:40 INFO  BaseClass:48 - Adding product to cart
+2026-08-01 00:01:40 DEBUG BaseClass:63 - Initializing LoginPage
+2026-08-01 00:01:40 INFO  BaseClass:66 - Entering email
+2026-08-01 00:01:40 INFO  BaseClass:69 - Entering password
+2026-08-01 00:01:40 INFO  BaseClass:72 - Submitting login
+2026-08-01 00:01:40 INFO  BaseClass:76 - Completing checkout process
+2026-08-01 00:01:41 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:41 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:41 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:41 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:41 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:41 INFO  BaseClass:53 - Proceeding to checkout
+2026-08-01 00:01:41 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:41 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:41 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:41 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:41 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:41 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:41 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:41 DEBUG BaseClass:24 - Test data received -> Email: nona@yahoo.com, Password length: 8
+2026-08-01 00:01:41 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:41 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:41 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:42 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:42 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:42 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:42 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:42 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:42 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:42 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:42 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:42 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:42 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:42 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:42 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:42 DEBUG BaseClass:24 - Test data received -> Email: sid@cloudberry.services, Password length: 7
+2026-08-01 00:01:42 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:42 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:42 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:42 DEBUG BaseClass:57 - Initializing CheckoutPage
+2026-08-01 00:01:42 INFO  BaseClass:60 - Clicking Login on checkout page
+2026-08-01 00:01:42 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:42 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:43 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:43 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:43 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:43 DEBUG BaseClass:63 - Initializing LoginPage
+2026-08-01 00:01:43 INFO  BaseClass:66 - Entering email
+2026-08-01 00:01:43 INFO  BaseClass:69 - Entering password
+2026-08-01 00:01:43 INFO  BaseClass:72 - Submitting login
+2026-08-01 00:01:43 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:43 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:43 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:43 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:43 INFO  BaseClass:76 - Completing checkout process
+2026-08-01 00:01:43 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:43 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:43 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:43 DEBUG BaseClass:24 - Test data received -> Email: apushedwoman@gmail.com, Password length: 11
+2026-08-01 00:01:43 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:43 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:43 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:43 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:43 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:43 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:43 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:43 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:44 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:44 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:44 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:44 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:44 DEBUG BaseClass:80 - Initializing ConfirmationPage
+2026-08-01 00:01:44 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:44 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:44 INFO  BaseClass:23 - ===== TC02_Login STARTED =====
+2026-08-01 00:01:44 DEBUG BaseClass:24 - Test data received -> Email: hichamkhachiai@gmail.com, Password length: 9
+2026-08-01 00:01:44 DEBUG BaseClass:30 - Initializing HomePage
+2026-08-01 00:01:44 INFO  BaseClass:33 - Clicking My Account
+2026-08-01 00:01:44 INFO  BaseClass:36 - Navigating to Login page
+2026-08-01 00:01:44 DEBUG BaseClass:40 - Initializing LoginPage
+2026-08-01 00:01:44 INFO  BaseClass:43 - Entering email
+2026-08-01 00:01:44 INFO  BaseClass:46 - Entering password
+2026-08-01 00:01:44 INFO  BaseClass:49 - Clicking Login button
+2026-08-01 00:01:44 INFO  BaseClass:84 - Order placement status: true
+2026-08-01 00:01:44 DEBUG BaseClass:89 - Asserting order placement
+2026-08-01 00:01:44 INFO  BaseClass:91 - ✅ Assertion PASSED: Order placed successfully
+2026-08-01 00:01:44 INFO  BaseClass:124 - ===== TC04_CompletePurchase FINISHED =====
+2026-08-01 00:01:44 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:44 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:44 DEBUG BaseClass:53 - Initializing AccountPage
+2026-08-01 00:01:45 INFO  BaseClass:57 - MyAccount confirmation displayed: true
+2026-08-01 00:01:45 DEBUG BaseClass:62 - Asserting login status
+2026-08-01 00:01:45 INFO  BaseClass:64 - ✅ Login assertion PASSED
+2026-08-01 00:01:45 INFO  BaseClass:80 - Performing logout
+2026-08-01 00:01:45 INFO  BaseClass:83 - Logout successful
+2026-08-01 00:01:45 INFO  BaseClass:103 - ===== TC02_Login FINISHED =====
+2026-08-01 00:01:45 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:01:45 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:01:46 INFO  BaseClass:49 - ========== Test Execution Started ==========
+2026-08-01 00:01:46 DEBUG BaseClass:50 - Operating System: windows
+2026-08-01 00:01:46 DEBUG BaseClass:51 - Browser Parameter Received: firefox
+2026-08-01 00:01:46 DEBUG BaseClass:55 - Loading config.properties file
+2026-08-01 00:01:46 INFO  BaseClass:123 - Launching Firefox browser
+2026-08-01 00:01:48 DEBUG BaseClass:134 - WebDriver instance set to ThreadLocal
+2026-08-01 00:01:48 DEBUG BaseClass:138 - Implicit wait set to 10 seconds
+2026-08-01 00:01:48 INFO  BaseClass:141 - Navigating to application URL: https://cloudberrystore.services/
+2026-08-01 00:01:50 DEBUG BaseClass:145 - Browser window maximized
+2026-08-01 00:01:50 INFO  BaseClass:19 - ===== TC04_CompletePurchase STARTED =====
+2026-08-01 00:01:50 DEBUG BaseClass:24 - Initializing CategoryPage
+2026-08-01 00:01:50 INFO  BaseClass:27 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:51 INFO  BaseClass:30 - Clicking Show All products
+2026-08-01 00:01:52 DEBUG BaseClass:33 - Waiting briefly for products to load
+2026-08-01 00:01:53 INFO  BaseClass:36 - Selecting HP product
+2026-08-01 00:01:54 DEBUG BaseClass:40 - Initializing ProductPage
+2026-08-01 00:01:54 INFO  BaseClass:43 - Setting delivery date
+2026-08-01 00:01:55 INFO  BaseClass:48 - Adding product to cart
+2026-08-01 00:01:55 ERROR BaseClass:115 - Unexpected exception occurred during TC04_CompletePurchase
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#button\-payment\-methods"}
+  (Session info: chrome=150.0.7871.187)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05aa06bb463e8ea32c205d2a26b16b1b, findElement {value=button-payment-methods, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\Affan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, goog:processID: 15032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05aa06bb463e8ea32c205d2a26b16b1b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.CheckoutPage.completeCheckout(CheckoutPage.java:48)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:77)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-01 00:01:55 DEBUG BaseClass:184 - Capturing screenshot for test: TC04_CompletePurchase_EXCEPTION
+2026-08-01 00:01:55 INFO  BaseClass:197 - Screenshot saved at: C:\Workspaces\QA bootcamp\NinjaV6\screenshots\TC04_CompletePurchase_EXCEPTION_20260801000155.png
+2026-08-01 00:01:55 INFO  BaseClass:118 - Screenshot captured at: C:\Workspaces\QA bootcamp\NinjaV6\screenshots\TC04_CompletePurchase_EXCEPTION_20260801000155.png
+2026-08-01 00:01:55 INFO  BaseClass:124 - ===== TC04_CompletePurchase FINISHED =====
+2026-08-01 00:01:55 WARN  RetryAnalyzer:20 - Retrying test 'testCompletePurchase' (1 of 2)
+2026-08-01 00:01:55 INFO  BaseClass:19 - ===== TC04_CompletePurchase STARTED =====
+2026-08-01 00:01:55 DEBUG BaseClass:24 - Initializing CategoryPage
+2026-08-01 00:01:55 INFO  BaseClass:27 - Clicking Laptops & Notebooks category
+2026-08-01 00:01:56 INFO  BaseClass:53 - Proceeding to checkout
+2026-08-01 00:01:56 INFO  BaseClass:30 - Clicking Show All products
+2026-08-01 00:01:56 DEBUG BaseClass:33 - Waiting briefly for products to load
+2026-08-01 00:01:57 INFO  BaseClass:36 - Selecting HP product
+2026-08-01 00:01:57 DEBUG BaseClass:57 - Initializing CheckoutPage
+2026-08-01 00:01:57 INFO  BaseClass:60 - Clicking Login on checkout page
+2026-08-01 00:01:57 DEBUG BaseClass:63 - Initializing LoginPage
+2026-08-01 00:01:57 INFO  BaseClass:66 - Entering email
+2026-08-01 00:01:57 INFO  BaseClass:69 - Entering password
+2026-08-01 00:01:57 INFO  BaseClass:72 - Submitting login
+2026-08-01 00:01:57 INFO  BaseClass:76 - Completing checkout process
+2026-08-01 00:01:58 DEBUG BaseClass:40 - Initializing ProductPage
+2026-08-01 00:01:58 INFO  BaseClass:43 - Setting delivery date
+2026-08-01 00:01:58 INFO  BaseClass:48 - Adding product to cart
+2026-08-01 00:01:59 INFO  BaseClass:53 - Proceeding to checkout
+2026-08-01 00:02:01 DEBUG BaseClass:80 - Initializing ConfirmationPage
+2026-08-01 00:02:01 DEBUG BaseClass:57 - Initializing CheckoutPage
+2026-08-01 00:02:01 INFO  BaseClass:60 - Clicking Login on checkout page
+2026-08-01 00:02:01 INFO  BaseClass:84 - Order placement status: true
+2026-08-01 00:02:01 DEBUG BaseClass:89 - Asserting order placement
+2026-08-01 00:02:01 INFO  BaseClass:91 - ✅ Assertion PASSED: Order placed successfully
+2026-08-01 00:02:01 INFO  BaseClass:124 - ===== TC04_CompletePurchase FINISHED =====
+2026-08-01 00:02:01 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:02:01 INFO  BaseClass:170 - Closing browser and quitting WebDriver
+2026-08-01 00:02:11 ERROR BaseClass:115 - Unexpected exception occurred during TC04_CompletePurchase
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='login page']"}
+  (Session info: chrome=150.0.7871.187)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05aa06bb463e8ea32c205d2a26b16b1b, findElement {value=//strong[normalize-space()='login page'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\Affan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, goog:processID: 15032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05aa06bb463e8ea32c205d2a26b16b1b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.CheckoutPage.clickLogin(CheckoutPage.java:37)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-01 00:02:11 DEBUG BaseClass:184 - Capturing screenshot for test: TC04_CompletePurchase_EXCEPTION
+2026-08-01 00:02:11 INFO  BaseClass:197 - Screenshot saved at: C:\Workspaces\QA bootcamp\NinjaV6\screenshots\TC04_CompletePurchase_EXCEPTION_20260801000211.png
+2026-08-01 00:02:11 INFO  BaseClass:118 - Screenshot captured at: C:\Workspaces\QA bootcamp\NinjaV6\screenshots\TC04_CompletePurchase_EXCEPTION_20260801000211.png
+2026-08-01 00:02:11 INFO  BaseClass:124 - ===== TC04_CompletePurchase FINISHED =====
+2026-08-01 00:02:11 WARN  RetryAnalyzer:20 - Retrying test 'testCompletePurchase' (2 of 2)
+2026-08-01 00:02:11 INFO  BaseClass:19 - ===== TC04_CompletePurchase STARTED =====
+2026-08-01 00:02:11 DEBUG BaseClass:24 - Initializing CategoryPage
+2026-08-01 00:02:11 INFO  BaseClass:27 - Clicking Laptops & Notebooks category
+2026-08-01 00:02:12 INFO  BaseClass:30 - Clicking Show All products
+2026-08-01 00:02:12 DEBUG BaseClass:33 - Waiting briefly for products to load
+2026-08-01 00:02:13 INFO  BaseClass:36 - Selecting HP product
+2026-08-01 00:02:13 DEBUG BaseClass:40 - Initializing ProductPage
+2026-08-01 00:02:13 INFO  BaseClass:43 - Setting delivery date
+2026-08-01 00:02:14 INFO  BaseClass:48 - Adding product to cart
+2026-08-01 00:02:15 INFO  BaseClass:53 - Proceeding to checkout
+2026-08-01 00:02:16 DEBUG BaseClass:57 - Initializing CheckoutPage
+2026-08-01 00:02:16 INFO  BaseClass:60 - Clicking Login on checkout page
+2026-08-01 00:02:26 ERROR BaseClass:115 - Unexpected exception occurred during TC04_CompletePurchase
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//strong[normalize-space()='login page']"}
+  (Session info: chrome=150.0.7871.187)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.44.0', revision: 'da2039b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [05aa06bb463e8ea32c205d2a26b16b1b, findElement {value=//strong[normalize-space()='login page'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 150.0.7871.187, chrome: {chromedriverVersion: 150.0.7871.124 (9261fd0a595..., userDataDir: C:\Users\Affan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53060}, goog:processID: 15032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53060/devtoo..., se:cdpVersion: 150.0.7871.187, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 05aa06bb463e8ea32c205d2a26b16b1b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:224)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:421)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:415)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at pageObjects.CheckoutPage.clickLogin(CheckoutPage.java:37)
+	at testCases.TC04_CompletePurchase.testCompletePurchase(TC04_CompletePurchase.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
+	at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:280)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:76)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2026-08-01 00:02:26 DEBUG BaseClass:184 - Capturing screenshot for test: TC04_CompletePurchase_EXCEPTION
+2026-08-01 00:02:26 INFO  BaseClass:197 - Screenshot saved at: C:\Workspaces\QA bootcamp\NinjaV6\screenshots\TC04_CompletePurchase_EXCEPTION_20260801000226.png
+2026-08-01 00:02:26 INFO  BaseClass:118 - Screenshot captured at: C:\Workspaces\QA bootcamp\NinjaV6\screenshots\TC04_CompletePurchase_EXCEPTION_20260801000226.png
+2026-08-01 00:02:26 INFO  BaseClass:124 - ===== TC04_CompletePurchase FINISHED =====
+2026-08-01 00:02:26 DEBUG BaseClass:184 - Capturing screenshot for test: testCompletePurchase
+2026-08-01 00:02:27 INFO  BaseClass:197 - Screenshot saved at: C:\Workspaces\QA bootcamp\NinjaV6\screenshots\testCompletePurchase_20260801000226.png
+2026-08-01 00:02:27 INFO  BaseClass:164 - ========== Test Execution Completed ==========
+2026-08-01 00:02:27 INFO  BaseClass:170 - Closing browser and quitting WebDriver
