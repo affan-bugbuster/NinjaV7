@@ -40,16 +40,16 @@ public class CheckoutPage extends BasePage
     public void completeCheckout() throws InterruptedException 
     {
         new Select(shippingAddressDropdown).selectByIndex(1);
-        Thread.sleep(500);
+        Thread.sleep(1000);
         shippingMethodsButton.click();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         flatShippingButton.click();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         paymentMethodsButton.click();
-        Thread.sleep(500);
+        Thread.sleep(1000);
         codButton.click();
         scroll(confirmButton);
-        Thread.sleep(500);
+        Thread.sleep(1000);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", confirmButton);
     }
 
