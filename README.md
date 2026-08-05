@@ -1,54 +1,177 @@
-NinjaV7 – Selenium Hybrid Automation Framework (CloudBerry Store)
-NinjaV7 is an enterprise-grade Selenium Hybrid Automation Framework built for the CloudBerry Store (OpenCart) application.
-This framework follows real-world industry standards and is designed for scalable, maintainable, and high-performance test automation without using BDD/Cucumber.
+# 🥷 NinjaV7 – Selenium Hybrid Automation Framework
 
-🔧 Tech Stack
-Language: Java
-Automation Tool: Selenium WebDriver 4
-Test Framework: TestNG
-Build Tool: Maven
-Design Pattern: Page Object Model (POM)
-Reporting: Extent Reports
-Logging: Log4j
-CI Ready: Jenkins compatible
-Browser Support: Chrome, Firefox, Edge
+An **enterprise-grade Selenium Hybrid Automation Framework** built for automating the **CloudBerry Store (OpenCart)** application.
 
-🧱 Framework Architecture (NinjaV7)
+NinjaV7 follows industry best practices and is designed to deliver **scalable, maintainable, and high-performance UI test automation** using Java, Selenium WebDriver, and TestNG—without relying on BDD/Cucumber.
 
+---
+
+## 🚀 Overview
+
+NinjaV7 is a production-style automation framework that demonstrates a clean architecture using the **Page Object Model (POM)** and a hybrid framework approach. It is suitable for real-world enterprise projects, continuous integration pipelines, and automation portfolio demonstrations.
+
+### Highlights
+
+- Hybrid Automation Framework
+- Page Object Model (POM)
+- TestNG-based execution
+- Data-driven testing support
+- Multi-browser compatibility
+- Extent HTML Reporting
+- Screenshot capture on failures
+- Retry mechanism for flaky tests
+- Maven build management
+- Jenkins-ready architecture
+
+---
+
+# 🛠 Technology Stack
+
+| Technology | Description |
+|------------|-------------|
+| ☕ Java | Programming Language |
+| 🌐 Selenium WebDriver 4 | UI Automation |
+| ✅ TestNG | Test Framework |
+| 📦 Maven | Dependency Management |
+| 📄 Extent Reports | HTML Reporting |
+| 📝 Log4j | Logging |
+| 🏗 Page Object Model | Design Pattern |
+| 🔄 Jenkins | Continuous Integration |
+| 🌍 Chrome / Firefox / Edge | Browser Support |
+
+---
+
+# 📁 Project Structure
+
+```
 NinjaV7
-├── src/test/java
-│   ├── pageObjects        # Page Object Model classes
-│   ├── testCases          # TestNG test classes
-│   ├── testBase           # BaseClass (WebDriver setup)
-│   ├── utilities          # Utilities (config, waits, screenshots)
-│   └── listeners          # TestNG listeners (Extent, retry)
 │
-├── src/test/resources
-│   ├── config.properties  # Environment & credentials
-│   └── testdata           # Test data files (Excel / JSON)
+├── src
+│   └── test
+│       ├── java
+│       │   ├── pageObjects
+│       │   ├── testCases
+│       │   ├── testBase
+│       │   ├── utilities
+│       │   └── listeners
+│       │
+│       └── resources
+│           ├── config.properties
+│           └── testdata
 │
-├── test-output            # TestNG reports
-├── screenshots            # Failure screenshots
-├── testng.xml             # Suite configuration
-├── pom.xml                # Maven dependencies
+├── screenshots
+├── test-output
+├── testng.xml
+├── pom.xml
 └── README.md
+```
 
+---
 
-🚀 Key Features
-✅ Hybrid framework design (POM + utilities + TestNG)
-✅ Reusable Page Objects
-✅ Centralized WebDriver management
-✅ TestNG annotations & grouping
-✅ Retry mechanism for flaky tests
-✅ Screenshot capture on failure
-✅ Extent HTML reports
-✅ Data-driven testing support
-✅ Multi-browser execution
-✅ Parallel execution ready
+# ✨ Framework Features
 
-📘 Sample Test Case (Hybrid – TestNG)
+- ✅ Hybrid Framework Architecture
+- ✅ Page Object Model (POM)
+- ✅ Reusable Page Classes
+- ✅ Centralized WebDriver Management
+- ✅ TestNG Groups
+- ✅ Parallel Test Execution
+- ✅ Retry Failed Tests
+- ✅ Screenshot Capture on Failure
+- ✅ Extent HTML Reports
+- ✅ Logging with Log4j
+- ✅ Data-Driven Testing
+- ✅ Cross-Browser Execution
+- ✅ Jenkins Compatible
+
+---
+
+# 🌐 Application Under Test
+
+**CloudBerry Store (OpenCart)**
+
+https://www.cloudberrystore.services
+
+---
+
+# ⚙ Prerequisites
+
+Before running the project, ensure the following are installed:
+
+- Java JDK 17+
+- Maven 3.8+
+- Eclipse / IntelliJ IDEA
+- Google Chrome / Firefox / Edge
+- Git
+
+---
+
+# 📥 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/affan-bugbuster/NinjaV7.git
+```
+
+Navigate to the project:
+
+```bash
+cd NinjaV7
+```
+
+Install dependencies:
+
+```bash
+mvn clean install
+```
+
+---
+
+# ▶ Running the Tests
+
+## Using TestNG
+
+Run the **testng.xml** suite from your IDE.
+
+---
+
+## Using Maven
+
+```bash
+mvn test
+```
+
+---
+
+## Execute Specific Test Groups
+
+Example:
+
+```xml
+<groups>
+    <run>
+        <include name="sanity"/>
+    </run>
+</groups>
+```
+
+---
+
+## Parallel Execution
+
+```xml
+<suite parallel="tests" thread-count="3">
+```
+
+---
+
+# 🧪 Sample Test
+
+```java
 @Test(groups = {"sanity","regression"})
 public void verifyLogin() {
+
     HomePage home = new HomePage(driver);
     LoginPage login = new LoginPage(driver);
 
@@ -61,48 +184,88 @@ public void verifyLogin() {
 
     Assert.assertTrue(login.isMyAccountPageDisplayed());
 }
+```
 
-▶️ How to Run the Tests
-🔹 Run via TestNG XML
-Right click testng.xml → Run as TestNG Suite
-🔹 Run via Maven
-mvn test
+---
 
-🌐 Application Under Test
-CloudBerry Store (OpenCart)
-https://www.cloudberrystore.services
+# 📊 Reporting
 
-🧪 Test Execution Control
-🔹 Run by TestNG Groups
-<groups>
-  <run>
-    <include name="sanity"/>
-  </run>
-</groups>
-🔹 Parallel Execution
-<suite parallel="tests" thread-count="3">
+After execution, reports are generated automatically.
 
-📊 Reports
-Extent Report: Generated after execution
-/test-output/ExtentReport.html
+### 📄 Extent Report
 
-Screenshots: Captured automatically on test failure
+```
+test-output/ExtentReport.html
+```
 
-🧠 Framework Design Philosophy
-Built for enterprise UI automation
-Clear separation of concerns
-Easy to extend for new modules
-Designed for real client projects & interviews
+### 📷 Screenshots
 
-🧩 Future Enhancements
-CI/CD integration with Jenkins
-Selenium Grid / Docker support
-Cloud execution (BrowserStack / Sauce Labs)
-API automation integration
+Failure screenshots are automatically captured and stored inside:
 
-👨‍🏫 Author
-Shadab Siddiqui Co-Founder – CloudBerry QA Automation | Selenium | Hybrid Framework | TestNG | CI/CD
+```
+screenshots/
+```
 
-⭐ Support
-If you find this framework useful, give the repository a ⭐ and feel free to fork it.
+---
 
+# 🏗 Framework Design
+
+The framework is built with the following goals:
+
+- Separation of concerns
+- Easy maintenance
+- High code reusability
+- Enterprise project structure
+- Scalable automation architecture
+- CI/CD readiness
+
+---
+
+# 🚀 Future Enhancements
+
+- Jenkins Pipeline Integration
+- Selenium Grid
+- Docker Support
+- BrowserStack Integration
+- Sauce Labs Integration
+- REST API Automation
+- Allure Reporting
+- GitHub Actions Workflow
+
+---
+
+# 👨‍💻 Author
+
+**Shadab Siddiqui**
+
+Co-Founder – CloudBerry QA Automation
+
+- Selenium Automation
+- Java
+- TestNG
+- Hybrid Framework
+- CI/CD
+- Enterprise Test Automation
+
+---
+
+# ⭐ Support
+
+If you found this project helpful:
+
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🛠 Contribute improvements
+- 📢 Share it with others
+
+---
+
+## 📜 License
+
+This project is intended for educational, demonstration, and portfolio purposes.
+
+Feel free to use and extend it for learning and personal projects.
+
+---
+
+> Built with ❤️ using Java, Selenium WebDriver, TestNG, and the Page Object Model.
